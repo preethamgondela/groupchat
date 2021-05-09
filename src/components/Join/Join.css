@@ -1,0 +1,88 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  background-color: grey
+}
+
+.joinInnerContainer {
+  width: 30%;
+  height: 75%;
+  background-color: #612727;
+  border-radius: 8px;
+  box-shadow: rgba(10, 0, 0, 0.507) 6px 6px 15px;
+}
+
+.joinInput {
+  border-radius: 50px;
+  border: none;
+  padding: 15px 20px;
+  margin: 2% 0;
+  width: 80%;
+}
+
+
+.heading {
+  color: rosybrown;
+  font-size: 2em;
+  margin-top: -15px;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+
+.button {
+  color:aqua !important;
+  font-size: 1.2em;
+  margin-top: 5%;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: blue;
+  padding: 12px;
+  transition-duration: 0.4s;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+  width: 80%;
+  cursor: pointer;
+}
+
+.button:hover{
+  background: rgba(41, 120, 255, 0.938);
+  cursor: pointer;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .joinOuterContainer {
+    height: 100%;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+  }
+}
+
+button:focus {
+  outline: 0;
+}

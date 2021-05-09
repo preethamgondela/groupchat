@@ -1,0 +1,6 @@
+.roomList{
+    display: flex;
+    overflow: auto;
+    background-color: #f9f1f0;
+    flex: 2;
+  }

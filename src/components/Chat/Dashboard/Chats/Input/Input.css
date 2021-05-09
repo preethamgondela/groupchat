@@ -1,0 +1,55 @@
+.form {
+    display: flex;
+    padding: 1%;
+    height: 12%;
+    min-height: 12%;
+  }
+  
+  .input {
+    border: none;
+    border-radius: 30px;
+    padding: 0 2%;
+    width: 91%;
+    font-size: 1em;
+    background-color: #474747;
+    border: none;
+    color: #fff;
+  }
+  
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+  }
+  
+  .sendButton {
+    margin: 0 0.5%;
+    color: #ffffff;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    background: #8a70ff;
+    display: inline-block;
+    width: 9%;
+  }
+  
+  .sendButton:hover{
+    cursor: pointer;
+    background-color: #8a70ff8c;
+  }
+  
+  @media screen and (max-width: 642px) {
+    .form{
+      height: 8%;
+      min-height: 8% !important;
+    }
+  
+    .input{
+      width: 80%;
+    }
+  
+    .sendButton{
+      width: 20%;
+    }
+  }

@@ -1,0 +1,47 @@
+.participantContainer{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+  }
+  
+  .roomName{
+    flex: 1;
+    z-index: 2;
+    background-color: #7e69da;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1em;
+    letter-spacing: 0.025cm;
+    font-weight: 600;
+    border-radius: 2px;
+  }
+  
+  
+  .participants {
+    display: flex;
+    flex: 11;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: min-content;
+  }
+  
+  .card {
+    box-sizing: border-box;
+    width: 95%;
+    height: 42px;
+    margin: 3%;
+    padding: 0%;
+    display: block;
+    overflow: auto;
+    border-radius: 3px;
+    /* border: 1px solid rgb(134, 134, 134); */
+  }
+  
+  @media screen and (max-width: 642px) {
+    .participantContainer{
+      display: none;
+    }
+  }

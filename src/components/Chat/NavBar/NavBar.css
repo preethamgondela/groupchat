@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    background-color: #3d3d3d;
+    width: 100%;
+    flex: 1;
+    box-shadow: rgba(0, 0, 0, 0.377) 2px 0px 12px;
+  }
+  
+  .left {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text {
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .right {
+    flex: 10;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: white; */
+  }
+  

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+.userCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #868686;
+    font-size: 1.2em;
+    font-family: 'Ubuntu', sans-serif;
+    height: 100%;
+    background-color: #363636;
+}
+
+.userCard:hover{
+    background-color: #4e4e4e;
+}
